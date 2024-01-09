@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    margin: 15px 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar > div > img{
+    height: 20px;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
