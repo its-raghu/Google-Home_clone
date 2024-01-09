@@ -25,9 +25,10 @@ a{
     width: 400px;
 }
 .search{
-    padding: 10px 170px;
+    width: 30%;
+    padding: 15px 40px;
     margin-top: 0;
-    border-radius: 20px;
+    border-radius: 50px;
     border: 1px solid  rgb(202, 201, 201);
 }
 .button{
@@ -51,4 +52,7 @@ a{
 }
 .four{
     width: 40px;
+}
+::placeholder{
+    font-size: 20px
 }
