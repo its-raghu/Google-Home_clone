@@ -23,13 +23,21 @@ a{
 }
 .logo{
     width: 400px;
+    margin-top: 5rem;
 }
 .search{
-    width: 30%;
+    width: 30rem;
     padding: 15px 40px;
-    margin-top: 0;
     border-radius: 50px;
     border: 1px solid  rgb(202, 201, 201);
+    font-size: 1rem;
+}
+.search-btn{
+    margin-left: 1rem;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 1px solid grey;
 }
 .button{
     display: flex;
@@ -54,5 +62,5 @@ a{
     width: 40px;
 }
 ::placeholder{
-    font-size: 20px
+    font-size: 20px;
 }
